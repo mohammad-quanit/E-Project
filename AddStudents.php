@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
    $gender = $_POST['gender'];
    $DOB = $_POST['dob'];
    $batch = $_POST['batch'];
-   $address = $_POST['address'];
+   $address = $_POST['address'];  
    $email = $_POST['email'];
    $phone = $_POST['phone'];
    $img = addslashes(file_get_contents($_FILES['f1'] ['tmp_name']));
